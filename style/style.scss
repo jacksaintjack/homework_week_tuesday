@@ -1,11 +1,11 @@
 main{
   width:100%;
-  height:50vw;
+  height:55vw;
   padding-top:1%;
 
     header{
       width:31vw;
-      height:42vw;
+      height:45vw;
       display:inline-block;
       padding-left:1.5%;
 
@@ -17,6 +17,41 @@ main{
       border: 2px solid #5CA4D7;
       border-bottom:0px;
     }
+
+    // Style for the reverse button
+    header aside{
+      position:relative;
+      left: 95.6%;
+      top: 3%;
+      border-left:2px solid #5CA4D7;
+      border-bottom:2px solid #5CA4D7;
+      width: 1.32vw;
+      height: 1.2vw;
+    }
+
+    .asideHighlight{
+      width:100%;
+      height:100%;
+      position:absolute;
+      z-index:1;
+    }
+
+    .asideHighlight:hover{
+      background:rgba(92, 164, 215, 0.38);
+    }
+
+    .reverse{
+      position:absolute;
+      top:0.2vw;
+      left:0.2vw;
+    }
+//Styele for pop up boxes
+
+  .popBoxShirt{
+    
+  }
+
+// Style for the nav boxes
     nav{
       width:100%;
       height:11%;
@@ -73,39 +108,66 @@ main{
       right: 23%;
       color:#5CA4D7;
       position:absolute;
+      z-index: -1;
     }
     .textSpecialTwo{
       top: 21%;
       right: 27%;
       color:#5CA4D7;
       position:absolute;
+      z-index: -1;
     }
     .textSpecialThree{
       top: 21%;
       right: 27%;
       position:absolute;
       color:#5CA4D7;
+      z-index: -1;
     }
     .textSpecialFour{
       top: 21%;
       right: 27%;
       color:#5CA4D7;
       position:absolute;
+      z-index: -1;
     }
     .textSpecialFive{
       top: 18%;
       right: 29%;
       color:#5CA4D7;
       position:absolute;
+      z-index: -1;
     }
-    .hover{
+    .hoverBox{
       height:100%;
       width:100%;
       border:0px;
       display:absolute;
+      z-index:1;
+      z-index: -1;
+    }
+    .hoverBox:hover{
+      background:rgba(92, 164, 215, 0.38);
+    }
+    // footer style
+    footer{
+      margin-top:3%;
+      font-size:1.5em;
+    }
+    footer span:nth-child(1){
+      float:left;
+      margin-left:2%;
+      color:#5CA4D7;
+    }
+
+    footer span:nth-child(2){
+      float:right;
+      margin-right:1%;
+      font-weight: bold;
+      color:#5CA4D7;
     }
 }
-
+//Picture styling
 .imgOne{
   background-image: url('../images/ShirtOne.jpeg');
   background-size: contain;
