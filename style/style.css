@@ -10,9 +10,94 @@ main {
   main header > section {
     width: 100%;
     height: 80%;
-    border: 1px solid #5CA4D7;
+    border: 2px solid #5CA4D7;
     border-bottom: 0px; }
   main nav {
     width: 100%;
-    height: 15%;
-    border: 1px solid #5CA4D7; }
+    height: 11%;
+    border: 2px solid #5CA4D7; }
+  main nav div:nth-child(1) {
+    border-right: 2px solid #5CA4D7;
+    width: 19.65%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    position: relative; }
+  main nav div:nth-child(2) {
+    border-right: 2px solid #5CA4D7;
+    width: 19.6%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    position: relative; }
+  main nav div:nth-child(3) {
+    border-right: 2px solid #5CA4D7;
+    width: 19.7%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-size: 2.5em;
+    position: relative; }
+  main nav div:nth-child(4) {
+    border-right: 2px solid #5CA4D7;
+    width: 19.7%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    position: relative; }
+  main nav div:nth-child(5) {
+    width: 19.7%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    position: relative; }
+  main .textSpecialOne {
+    top: 21%;
+    right: 23%;
+    color: #5CA4D7;
+    position: absolute; }
+  main .textSpecialTwo {
+    top: 21%;
+    right: 27%;
+    color: #5CA4D7;
+    position: absolute; }
+  main .textSpecialThree {
+    top: 21%;
+    right: 27%;
+    position: absolute;
+    color: #5CA4D7; }
+  main .textSpecialFour {
+    top: 21%;
+    right: 27%;
+    color: #5CA4D7;
+    position: absolute; }
+  main .textSpecialFive {
+    top: 18%;
+    right: 29%;
+    color: #5CA4D7;
+    position: absolute; }
+  main .hover {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    display: absolute; }
+
+.imgOne {
+  background-image: url("../images/ShirtOne.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.imgTwo {
+  background-image: url("../images/shirtTwo.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.imgThree {
+  background-image: url("../images/shirtThree.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat; }
