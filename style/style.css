@@ -24,7 +24,8 @@ main {
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: 1; }
+    z-index: 1;
+    transition: background 0.9s; }
   main .asideHighlight:hover {
     background: rgba(92, 164, 215, 0.38); }
   main .reverse {
@@ -111,9 +112,61 @@ main {
     border: 0px;
     display: absolute;
     z-index: 1;
-    z-index: -1; }
+    transition: background 0.9s; }
+  main .tooltip {
+    width: 100%;
+    height: 12vw;
+    border: 2px solid #5CA4D7;
+    position: absolute;
+    background: white;
+    bottom: 7vw;
+    opacity: 0;
+    transition: bottom 0.5s; }
+  main .arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 1em 1.35em 0 1.32em;
+    border-color: #5CA4D7 transparent transparent transparent;
+    display: block;
+    position: absolute;
+    bottom: 4.6vw;
+    opacity: 0;
+    transition: bottom 0.5s; }
+  main .tooltipTwo {
+    width: 100%;
+    height: 12vw;
+    border: 2px solid #5CA4D7;
+    position: absolute;
+    background: white;
+    bottom: 7vw;
+    opacity: 0;
+    transition: bottom 0.5s; }
+  main .arrowTwo {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3.32em 3.4em 0 3.42em;
+    border-color: #5CA4D7 transparent transparent transparent;
+    display: block;
+    position: absolute;
+    bottom: 5.6vw;
+    opacity: 0;
+    transition: bottom 0.5s; }
   main .hoverBox:hover {
     background: rgba(92, 164, 215, 0.38); }
+    main .hoverBox:hover .tooltip {
+      opacity: 1;
+      bottom: 9vw; }
+    main .hoverBox:hover .arrow {
+      opacity: 1;
+      bottom: 6.6vw; }
+    main .hoverBox:hover .tooltipTwo {
+      opacity: 1;
+      bottom: 9.7vw; }
+    main .hoverBox:hover .arrowTwo {
+      opacity: 1;
+      bottom: 6.6vw; }
   main footer {
     margin-top: 3%;
     font-size: 1.5em; }

@@ -34,6 +34,7 @@ main{
       height:100%;
       position:absolute;
       z-index:1;
+      transition:background 0.9s;
     }
 
     .asideHighlight:hover{
@@ -47,9 +48,6 @@ main{
     }
 //Styele for pop up boxes
 
-  .popBoxShirt{
-    
-  }
 
 // Style for the nav boxes
     nav{
@@ -138,17 +136,83 @@ main{
       position:absolute;
       z-index: -1;
     }
+
+    //Hover display for footer and pop up box
     .hoverBox{
       height:100%;
       width:100%;
       border:0px;
       display:absolute;
       z-index:1;
-      z-index: -1;
+      transition: background 0.9s;
+    }
+    .tooltip{ //Used for the pop up
+      width: 100%;
+      height:12vw;
+      border:2px solid #5CA4D7;
+      position:absolute;
+      background:white;
+      bottom:7vw;
+      opacity:0;
+      transition: bottom 0.5s;
+    }
+    .arrow{
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 1em 1.35em 0 1.32em;
+      border-color: #5CA4D7 transparent transparent transparent;
+      display:block;
+      position:absolute;
+      bottom:4.6vw;
+      opacity:0;
+      transition: bottom 0.5s;
+    }
+
+    .tooltipTwo{
+      width: 100%;
+      height:12vw;
+      border:2px solid #5CA4D7;
+      position:absolute;
+      background:white;
+      bottom:7vw;
+      opacity:0;
+      transition: bottom 0.5s;
+    }
+
+    .arrowTwo{
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 3.32em 3.4em 0 3.42em;
+      border-color: #5CA4D7 transparent transparent transparent;
+      display:block;
+      position:absolute;
+      bottom:5.6vw;
+      opacity:0;
+      transition: bottom 0.5s;
     }
     .hoverBox:hover{
       background:rgba(92, 164, 215, 0.38);
+
+      .tooltip{
+        opacity:1;
+        bottom:9vw;
+        }
+      .arrow{
+        opacity:1;
+        bottom:6.6vw;
+      }
+      .tooltipTwo{
+        opacity:1;
+        bottom:9.7vw;
+      }
+      .arrowTwo{
+        opacity:1;
+        bottom:6.6vw;
+      }
     }
+
     // footer style
     footer{
       margin-top:3%;
