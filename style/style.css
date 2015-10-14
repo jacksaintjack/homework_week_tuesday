@@ -119,7 +119,7 @@ main {
     border: 2px solid #5CA4D7;
     position: absolute;
     background: white;
-    bottom: 7vw;
+    bottom: 5.4vw;
     opacity: 0;
     transition: bottom 0.5s; }
   main .arrow {
@@ -130,17 +130,18 @@ main {
     border-color: #5CA4D7 transparent transparent transparent;
     display: block;
     position: absolute;
-    bottom: 4.6vw;
+    bottom: 3.1vw;
     opacity: 0;
     transition: bottom 0.5s; }
   main .tooltipTwo {
     width: 100%;
-    height: 12vw;
+    height: 4vw;
     border: 2px solid #5CA4D7;
     position: absolute;
     background: white;
-    bottom: 7vw;
+    bottom: 7.25vw;
     opacity: 0;
+    text-align: center;
     transition: bottom 0.5s; }
   main .arrowTwo {
     width: 0;
@@ -150,23 +151,35 @@ main {
     border-color: #5CA4D7 transparent transparent transparent;
     display: block;
     position: absolute;
-    bottom: 5.6vw;
+    bottom: 4.1vw;
     opacity: 0;
     transition: bottom 0.5s; }
   main .hoverBox:hover {
     background: rgba(92, 164, 215, 0.38); }
     main .hoverBox:hover .tooltip {
       opacity: 1;
-      bottom: 9vw; }
+      bottom: 7.4vw; }
     main .hoverBox:hover .arrow {
       opacity: 1;
-      bottom: 6.6vw; }
+      bottom: 5.1vw; }
     main .hoverBox:hover .tooltipTwo {
       opacity: 1;
-      bottom: 9.7vw; }
+      bottom: 8.2vw; }
     main .hoverBox:hover .arrowTwo {
       opacity: 1;
-      bottom: 6.6vw; }
+      bottom: 5.1vw; }
+    main .hoverBox:hover .squareColor:nth-child(1) {
+      color: blue; }
+    main .hoverBox:hover .squareColor:nth-child(2) {
+      color: gray; }
+    main .hoverBox:hover .squareColor:nth-child(3) {
+      color: red; }
+    main .hoverBox:hover .squareColor:nth-child(4) {
+      color: yellow; }
+    main .hoverBox:hover .squareColor:nth-child(5) {
+      color: pink; }
+    main .hoverBox:hover .squareColor:nth-child(6) {
+      color: brown; }
   main footer {
     margin-top: 3%;
     font-size: 1.5em; }
